@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hot Beans Web</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/apply.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="Home.html" class="logo"><img src="images/HBBig.png"></a>
+					<nav id="nav">
+						<a href="Home.html">Home</a>
+						<a href="Home.html">Page 1</a>
+						<a href="Home.html">Page 2</a>
+						<a href="Home.html">Page 3</a>
+						
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+            </header>
+            <section id="three" class="wrapper">
+				<div class="inner">
+					<p class="align-center">
+                        <form action="process.php" method="POST">
+                            <fieldset>
+                                <h2> Job Application Form </h2>
+                                <p>Thank you for your interest in working with us. Please check below for availible job opportunities that meet your criteria and send your application by filling out the Job Application Form. </p>
+                                First Name: <br> <input type="text" size ="30" name="txt_Name"required/><br>
+                                <br>
+                                
+                                Last Name: <br> <input type="text" size ="30" name="txt_Name"required/><br>
+                                <br>
+                                
+                                Email:<br><input type="email" name="email"required><br>
+                                <br>
+                                
+                                Phone: <br><input type="tel" name="phone" pattern="[0-9]{5}[0-9]{3}[0-9]{3}" required><br>
+                                <br>
+                                
+                                 What position are you applying for?<br><select name="Dropdown" required>
+                                    <option value="select">Select</option>
+                                    <option value="Web developer">Web Developer</option>
+                                </select><br>
+                                <br>
+                                
+                                Available Start Date:<br><input type="date" name="StartDate"required><br>
+                                <br>
+                                
+                                What is your current employment status? <br> 
+                                <Input type="radio" value="Employed" name="Employed"> Employed <br>
+                                <Input type="radio" value="Self-Employed" name="Self-Employed"> Self-Employed <br>
+                                <Input type="radio" value="Unemployed" name="Unemployed"> Unemployed <br>
+                                <Input type="radio" value="Student" name="Student"> Student <br>
+                                <br>
+                                
+                                Upload CV here:<br><input type="file" value="upload" name="upload"required><br>
+                                <br>
+                                
+                                <input type="submit"><br>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
