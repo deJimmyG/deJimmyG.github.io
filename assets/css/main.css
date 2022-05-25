@@ -2067,14 +2067,14 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
+		background: #3b3b3b;
 		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #eeeeee;
 			font-weight: 900;
 			font-size: 2.5em;
 			letter-spacing: -0.035em;
@@ -2085,6 +2085,7 @@ input, select, textarea {
 
 	#nav {
 		margin: 2.5em 0 0 0;
+		overflow: hidden;
 	}
 
 		#nav > ul {
@@ -2103,7 +2104,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #ffffff;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2170,36 +2171,37 @@ input, select, textarea {
 				border-bottom: solid 10px #252122;
 				border-bottom-color: rgba(34, 30, 31, 0.98);
 			}
+			
 
 /* Banner */
 
 	#banner {
 		background: #353535 ;
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: 60%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		padding: 4em 0;
-		margin: 4em 0 0 0;
+		padding: 1em 0;
+		margin: 4em 0 5em 0;
 	}
 
 		#banner header {
-			background-color: rgba(255, 0, 64, 0);
+			background-color: rgba(255, 255, 255, 0);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
 		}
 
 			#banner header h2 {
-				color: #fff;
+				color: #eeeeee;
 				font-weight: 700;
 				font-size: 2.5em;
 				margin: 0 0 0.65em 0;
 			}
 
 			#banner header h3 {
-				color: #fff;
+				color: #eeeeee;
 				font-weight: 700;
 				font-size: 1.7em;
 				margin: 0 0 0.65em 0;
@@ -2213,6 +2215,31 @@ input, select, textarea {
 				font-size: 1.5em;
 			}
 
+/* About */
+	#about {
+		
+	}
+		#about h2 {
+			color: #eeeeee;
+			padding: 0;
+			font-style: normal;
+			margin: 0;
+			font-size: 1.5em;
+			text-align: left;
+			margin: 1em 10em 0 10em;
+		}
+		#about h3 {
+			color: #eeeeee;
+			padding: 0;
+			font-style: normal;
+			margin: 0;
+			font-size: 1.25em;
+			text-align: left;
+			margin: 1em 11em 0 12.7em;
+		}
+	
+	
+	
 /* Intro */
 
 	#intro {
@@ -2912,5 +2939,5 @@ input, select, textarea {
 			#footer {
 				padding: 40px 0 20px 0;
 			}
-
+			
 	}
