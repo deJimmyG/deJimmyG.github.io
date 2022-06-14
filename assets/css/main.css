@@ -307,7 +307,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+		border-bottom: solid 3px rgba(255, 255, 255, 0.15);
 		margin: 2em 0;
 	}
 
@@ -2675,6 +2675,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		padding-top: 2em;
 	}
 
 		ul.actions li {
@@ -3921,3 +3922,19 @@ input, select, textarea {
 			width: 100%;
 			height: 80%;
 		  }
+
+		  .iframe-container2{
+			position: relative;
+			width: 57%;
+			padding-bottom: 40%; 
+			height: 0;
+		  }
+		  .iframe-container2 iframe{
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 80%;
+		  }
+
+		  
